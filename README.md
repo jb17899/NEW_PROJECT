@@ -14,6 +14,6 @@ Currently, two official plugins are available:
 
 2.cd my-react-app
 
-3.npm install                                                                         %%to install dependencies
+3.npm install                                                                     
 
 4.npm run dev
