@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h3{
+    color:#FF3147;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    filter: opacity(0.8);
+}
+.heading h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 60px!important;
+    font-weight: 600;
+    font-style: normal; 
+}
+.heading p{
+
+    font-size: 14px!important;
+}
+.btn{
+    background-color:#FF3147!important;
+    font-size: large;
+    border: none!important;
+    border-radius: none!important;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+letter-spacing: 1.4px;
+}
+.btn:hover{
+    filter: contrast(3.7) opacity(0.67);
+}
+.heading-two h4{
+    color: #FF3147!important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.heading-main{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px!important;
+    font-weight: 600;
+    font-style: normal; 
+}
+.row p{
+    font-size: 14px!important;
+}
+.cs{
+    width:max-content;
+    height: max-content;
+}
+.carousel-control-prev{
+display: flex!important;
+position: relative!important;
+transition: opacity 0.15s ease;
+width: fit-content;
+padding: 5px!important;
+border-radius:15px ;
+}
+.carousel-control-next{
+    display: flex!important;
+    position: relative!important;
+    transition: opacity 0.15s ease; 
+    width: fit-content;
+    padding: 5px !important;
+    border-radius:15px ;
+}
+@media (prefers-reduced-motion: reduce) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    transition: none;
+  }
+}
+.carousel-control-prev:hover, .carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+  border: 2px solid #FF3147;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+}
+
+.carousel-control-prev-icon {
+  background-image:url("3.png");
+}
+
+.carousel-control-next-icon {
+  background-image:url("3.png");
+}
+.jss h3{
+    color:#FF3147;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.jss h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+}
+.features h3{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px!important;     
+}
+.features p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px!important;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.box:hover{
+    cursor: pointer;
+}
+.actives{
+    background-color: #FF3147;
+    color: #fff!important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cards{
+    transition: 0.5s;
+}
+.cards:hover{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.changeColor{
+    color: #FF3147;
+}
+.form-control{
+    border: none;
+    border-radius: 0px!important;
+    border-bottom: 2px solid #6F718F99;
+}
+.form-control:focus{
+    border:none;
+    box-shadow: none;
+    border-bottom: 2px solid #6F718F99!important;
+}
+.modal-title{
+    font-size: 25px!important;
+    font-weight: 800;
+}
+.form-check-input:focus {
+    border-color: #FF3147;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #ffabb4;
+  }
+  .form-check-input:checked {
+    background-color: #FF3147;
+    border-color: #FF3147;
+  }
+.inner-card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .inner-card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .flip-card-back {
+    background-color: #FF3147;
+    
+    transform: rotateY(180deg);
+  }
+  .card{
+    border:none!important;
+  }
+  .card h1{
+    font-size: 25px;
+    font-weight:600;
+  }
+  .card .btn{
+    background-color: #fff!important;
+    color: #FF3147!important;
+    font-size: 20px;
+  }
